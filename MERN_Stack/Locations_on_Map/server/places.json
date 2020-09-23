@@ -1,0 +1,434 @@
+[
+    {
+        "location": {
+            "lat": 16.84083,
+            "lng": 74.69225
+        },
+        "place": "Malgaon",
+        "plotId": "Thompsonplot9"
+    },
+    {
+        "location": {
+            "lat": 16.6463,
+            "lng": 75.063
+        },
+        "place": "Radderhatti",
+        "plotId": "manikchamanplot"
+    },
+    {
+        "location": {
+            "lat": 20.17568,
+            "lng": 74.18446
+        },
+        "place": "Khadak Malegaon",
+        "plotId": "thomsonplotddr"
+    },
+    {
+        "location": {
+            "lat": 20.11768,
+            "lng": 75.05722
+        },
+        "place": "Pimpari",
+        "plotId": "plot2GauriFarm"
+    },
+    {
+        "location": {
+            "lat": 20.08321,
+            "lng": 73.73386
+        },
+        "place": "Dari",
+        "plotId": "thompsonplot007"
+    },
+    {
+        "location": {
+            "lat": 20.106509,
+            "lng": 74.083054
+        },
+        "place": "Kundewadi",
+        "plotId": "Sharadplot2"
+    },
+    {
+        "location": {
+            "lat": 20.11498,
+            "lng": 74.00475
+        },
+        "place": "Kasbe Sukene",
+        "plotId": "mamajumbovijayfarm"
+    },
+    {
+        "location": {
+            "lat": 20.06364,
+            "lng": 74.01434
+        },
+        "place": "Mauje sukene",
+        "plotId": "Thomsonplot1"
+    },
+    {
+        "location": {
+            "lat": 20.12951,
+            "lng": 73.896473
+        },
+        "place": "Mohadi",
+        "plotId": "KalamkarFarmCrimsonplot5"
+    },
+    {
+        "location": {
+            "lat": 20.12455,
+            "lng": 74.02843
+        },
+        "place": "Wadali Najik",
+        "plotId": "vishwasfarmplot4"
+    },
+    {
+        "location": {
+            "lat": 20.223717,
+            "lng": 73.96954
+        },
+        "place": "Khedgaon",
+        "plotId": "sudhakarplot1SmileBaby"
+    },
+    {
+        "location": {
+            "lat": 16.854,
+            "lng": 75.68684
+        },
+        "place": "Lakshminagar",
+        "plotId": "plot18Akabadefarm"
+    },
+    {
+        "location": {
+            "lat": 20.0246,
+            "lng": 73.8846
+        },
+        "place": "Vinchur Gavali",
+        "plotId": "plot6purple"
+    },
+    {
+        "location": {
+            "lat": 16.8336,
+            "lng": 75.54007
+        },
+        "place": "Tikota",
+        "plotId": "anarplotplatilfarm"
+    },
+    {
+        "location": {
+            "lat": 20.143346,
+            "lng": 73.90567
+        },
+        "place": "Mohadi",
+        "plotId": "plot4ASunilKalamkarFarm"
+    },
+    {
+        "location": {
+            "lat": 19.999623,
+            "lng": 74.053904
+        },
+        "place": "Karanjgaon",
+        "plotId": "Thompson1RKHFarm"
+    },
+    {
+        "location": {
+            "lat": 20.14304,
+            "lng": 73.90935
+        },
+        "place": "Mohadi",
+        "plotId": "sudhakarplotkalamkar"
+    },
+    {
+        "location": {
+            "lat": 20.230821,
+            "lng": 73.949848
+        },
+        "place": "Khedgaon",
+        "plotId": "Sudhakar1"
+    },
+    {
+        "location": {
+            "lat": 17.0887419,
+            "lng": 74.2968204
+        },
+        "place": "Borgaon",
+        "plotId": "plot1RatnaAgrotech"
+    },
+    {
+        "location": {
+            "lat": 15.8901,
+            "lng": 76.3429
+        },
+        "place": "Muddalagundi",
+        "plotId": "Plotg1AnjeerFarm"
+    },
+    {
+        "location": {
+            "lat": 16.83305,
+            "lng": 74.69355
+        },
+        "place": "takali",
+        "plotId": "ssngulavnefarm"
+    },
+    {
+        "location": {
+            "lat": 20.271195,
+            "lng": 73.865991
+        },
+        "place": "Parmori",
+        "plotId": "MKsTomato"
+    },
+    {
+        "location": {
+            "lat": 20.207051,
+            "lng": 73.895884
+        },
+        "place": "Lokhandewadi",
+        "plotId": "Plotno3"
+    },
+    {
+        "location": {
+            "lat": 17.24365,
+            "lng": 75.97178
+        },
+        "place": "Indi",
+        "plotId": "plot34durganursery"
+    },
+    {
+        "location": {
+            "lat": 16.837082,
+            "lng": 74.860034
+        },
+        "place": "Linghur",
+        "plotId": "SonakaL2DeepAgro"
+    },
+    {
+        "location": {
+            "lat": 10.228156,
+            "lng": 77.740953
+        },
+        "place": "Ayyapallayam",
+        "plotId": "BananaPlot"
+    },
+    {
+        "location": {
+            "lat": 20.21182,
+            "lng": 74.03298
+        },
+        "place": "Pachora, Vani",
+        "plotId": "rkplotsuyogfarm"
+    },
+    {
+        "location": {
+            "lat": 20.230821,
+            "lng": 73.949848
+        },
+        "place": "Khedgaon",
+        "plotId": "Sudhakar1"
+    },
+    {
+        "location": {
+            "lat": 20.02456,
+            "lng": 73.88049
+        },
+        "place": "Vinchur gawali",
+        "plotId": "Crimsonnavnathgardan"
+    },
+    {
+        "location": {
+            "lat": 17.03179,
+            "lng": 74.36015
+        },
+        "place": "Walwa",
+        "plotId": "vihirpattipadmanfarm"
+    },
+    {
+        "location": {
+            "lat": 16.841155,
+            "lng": 74.700711
+        },
+        "place": "Malgaon",
+        "plotId": "rk4AcreBargaleFarm"
+    },
+    {
+        "location": {
+            "lat": 20.12124,
+            "lng": 74.02944
+        },
+        "place": "Wadali Najik",
+        "plotId": "jumboplot2"
+    },
+    {
+        "location": {
+            "lat": 19.8315,
+            "lng": 73.84274
+        },
+        "place": "Pimpari",
+        "plotId": "plot1pimparimalla"
+    },
+    {
+        "location": {
+            "lat": 16.38296,
+            "lng": 76.084
+        },
+        "place": "Basarkod",
+        "plotId": "plot2reddyfarmhouse"
+    },
+    {
+        "location": {
+            "lat": 17.785157,
+            "lng": 75.851259
+        },
+        "place": "Solapur",
+        "plotId": "JayShree"
+    },
+    {
+        "location": {
+            "lat": 20.2828,
+            "lng": 73.9678
+        },
+        "place": "Talegaon",
+        "plotId": "sudhakarplot6yashrajfarm"
+    },
+    {
+        "location": {
+            "lat": 16.5179,
+            "lng": 75.5229
+        },
+        "place": "Kengalgutti",
+        "plotId": "plotAdhrutimedha"
+    },
+    {
+        "location": {
+            "lat": 20.73489,
+            "lng": 74.13009
+        },
+        "place": "Satana",
+        "plotId": "sandipgrapeplot001"
+    },
+    {
+        "location": {
+            "lat": 20.09744,
+            "lng": 74.15715
+        },
+        "place": "Sonewadi Niphad",
+        "plotId": "ppffarmsgoldenharvest"
+    },
+    {
+        "location": {
+            "lat": 16.88707,
+            "lng": 74.771842
+        },
+        "place": "Khanderajuri",
+        "plotId": "anushkaplotChavanAgro"
+    },
+    {
+        "location": {
+            "lat": 20.132193,
+            "lng": 74.1014
+        },
+        "place": "Nandurdi",
+        "plotId": "Flemplot2"
+    },
+    {
+        "location": {
+            "lat": 20.12794,
+            "lng": 74.06387
+        },
+        "place": "Dawachwadi",
+        "plotId": "NanasahebPurpleplot"
+    },
+    {
+        "location": {
+            "lat": 16.83765,
+            "lng": 74.69729
+        },
+        "place": "Takali",
+        "plotId": "anushka25"
+    },
+    {
+        "location": {
+            "lat": 19.605292,
+            "lng": 74.473151
+        },
+        "place": "Loni Khurd",
+        "plotId": "rajendraaherplot56"
+    },
+    {
+        "location": {
+            "lat": 19.8142,
+            "lng": 73.86437
+        },
+        "place": "Pandhurali",
+        "plotId": "thompsonplotdhokanefarm"
+    },
+    {
+        "location": {
+            "lat": 20.141374,
+            "lng": 73.999334
+        },
+        "place": "Mohadi",
+        "plotId": "Plot2SahukarAgroExport"
+    },
+    {
+        "location": {
+            "lat": 20.7732155,
+            "lng": 74.186746
+        },
+        "place": "Ladut",
+        "plotId": "crimsonplot6"
+    },
+    {
+        "location": {
+            "lat": 20.19223,
+            "lng": 73.8553
+        },
+        "place": "Palkhed Bandhara",
+        "plotId": "pltb4ganesh"
+    },
+    {
+        "location": {
+            "lat": 19.96727,
+            "lng": 73.78765
+        },
+        "place": "Wadala",
+        "plotId": "plot34shreejayfarm"
+    },
+    {
+        "location": {
+            "lat": 19.90621,
+            "lng": 73.64045
+        },
+        "place": "Dahegaon",
+        "plotId": "plot1shivnerifarm"
+    },
+    {
+        "location": {
+            "lat": 20.1565,
+            "lng": 74.0017
+        },
+        "place": "Behed",
+        "plotId": "NavaBagMrutumjai"
+    },
+    {
+        "location": {
+            "lat": 16.8377,
+            "lng": 74.7006
+        },
+        "place": "Subhashnagar",
+        "plotId": "sonakaplotShreeAgrotech"
+    },
+    {
+        "location": {
+            "lat": 20.09744,
+            "lng": 74.15715
+        },
+        "place": "Sonewadi Niphad",
+        "plotId": "ppffarmsplot2"
+    },
+    {
+        "location": {
+            "lat": 17.7111021,
+            "lng": 76.039436
+        },
+        "place": "Boramani",
+        "plotId": "SSNPlotSBSFarm"
+    }
+]
