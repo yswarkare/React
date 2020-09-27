@@ -7,7 +7,9 @@ const user = {
         username: "",
         emailId: "",
         password: "",
-        userBio: ""
+        userBio: "",
+        orders: [],
+        wishlist: []
     },
     loginDetails: {
         usernameOrEmailId: "",

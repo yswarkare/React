@@ -1,3 +1,4 @@
+import { Get_Error } from "../actions/error_types";
 import usersState from "../states/users_state";
 
 const usersReducer = (state = usersState, action) => {
@@ -5,8 +6,12 @@ const usersReducer = (state = usersState, action) => {
 
     switch (action.type) {
         
+        case Get_Error:
+            console.log(action.payload);
+            return stateCopy;
+
         default:
-        return stateCopy;
+            return stateCopy;
     }
 }
 

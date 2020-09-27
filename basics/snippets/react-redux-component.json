@@ -3,7 +3,7 @@
 		"scope": "javascript,typescript",
 		"prefix": "rrdc",
 		"body": [
-				"import React, { Component } from 'react';\nimport { connect } from 'react-redux';\nimport PropTypes from 'prop-types';\n\nclass $1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t\n\t\t\t</div>\n\t\t)\n\n\t}\n}\n\n$1.propTypes = {\n\n}\n\nconst mapStateToPorps = (state) => {\n\treturn {\n\t\t\n\t}\n}\n\nconst mapDispatchToProps = {\n\t\n}\n\nexport default connect(mapStateToPorps, mapDispatchToProps)($1);"
+				"import React, { Component } from 'react';\nimport { connect } from 'react-redux';\nimport PropTypes from 'prop-types';\n\nclass $1 extends Component {\n\n\n\trender () {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t\n\t\t\t</div>\n\t\t)\n\n\t}\n}\n\n$1.propTypes = {\n\t\n}\n\nconst mapStateToPorps = (state) => {\n\treturn {\n\t\t\n\t}\n}\n\nconst mapDispatchToProps = {\n\t\n}\n\nexport default connect(mapStateToPorps, mapDispatchToProps)($1);"
 		],
 		"description": "Create React Redux Component"
 	}

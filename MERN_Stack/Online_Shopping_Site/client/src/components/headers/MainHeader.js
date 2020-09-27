@@ -18,23 +18,33 @@ class MainHeader extends Component {
         return (
             <Fragment>
                 <div className="main-header">
-                    <div className="main-header-1"><Link to="/">Home</Link></div>
-                    <div className="main-header-2">Search Bar</div>
+                    <Link to="/">
+                        <div className="main-header-1 card text-light bg-dark">Home</div>
+                    </Link>
+                    <div className="main-header-2 card text-light bg-dark">Search Bar</div>
                     {
                         this.props.user.loginStatus.loggedIn === false &&
-                        <div className="main-header-3"><Link to="/user-login">Log In</Link></div>
+                        <Link to="/user-login">
+                            <div className="main-header-3 card text-light bg-dark">Log In</div>
+                        </Link>
                     }
                     {
                         this.props.user.loginStatus.loggedIn === false &&
-                        <div className="main-header-4"><Link to="/register-user">Register</Link></div>
+                        <Link to="/register-user">
+                            <div className="main-header-4 card text-light bg-dark">Register</div>
+                        </Link>
                     }
                     {
                         this.props.user.loginStatus.loggedIn === true &&
-                        <div className="main-header-3"><Link to="/user-account">{this.props.user.user.username}</Link></div>
+                        <Link to="/user-account">
+                            <div className="main-header-3 card text-light bg-dark">{this.props.user.user.username}</div>
+                        </Link>
                     }
                     {
                         this.props.user.loginStatus.loggedIn === true &&
-                        <div className="main-header-4"><a href="/" onClick={()=>{this.onClickUserLogOut()}}>Log Out</a></div>
+                        <a href="/" onClick={()=>{this.onClickUserLogOut()}}>
+                            <div className="main-header-4 card text-light bg-dark">Log Out</div>
+                        </a>
                     }
 
                 </div>

@@ -1,0 +1,10 @@
+{
+	"Higher Order Component": {
+		"scope": "javascript,typescript",
+		"prefix": "hoc",
+		"body": [
+			"import React, { Component } from 'react';\nimport withListHOC from './withListHOC';\n\nclass WrappedList extends Component {\n\n\n\trender () {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t\n\t\t\t</div>\n\t\t)\n\t}\n}\n\nconst ListHOC = withListHOC(WrappedList);\n\nexport default ListHOC;"
+		],
+		"description": "React Higher Order Component"
+	}
+}

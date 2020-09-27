@@ -7,12 +7,12 @@ const { registerUser, loginUser, verifyToken, jwtAuth, userAuth } = require("../
 
 router.get("/get-all-users", async (req, res) => {
     try {
-        let users = await User.find()
-        let allUsers = Object.assign({}, users)
-        console.log(allUsers)
-        return res.status(200).json({success: true, message: "Got All Users", users: users, allUsers: allUsers})
+        let users = await User.find();
+        let allUsers = Object.assign({}, users);
+        console.log(allUsers);
+        return res.status(200).json({success: true, message: "Got All Users", users: users, allUsers: allUsers});
     } catch (err) {
-        return res.json({success: false, message: "failed to get list of users", error: `${err}`})
+        return res.json({success: false, message: "failed to get list of users", error: `${err}`});
     }
 })
 
@@ -47,22 +47,22 @@ router.patch("/verify-cookies", async (req, res) => {
 
 router.patch("/is-user-logged-in", userAuth, async (req, res) => {
     try {
-        console.log(req.user);
-        res.setHeader("Authorization", req.cookies.bearerToken)
-        return res.json({success: true, message: "User is logged in", user: req.user})
+        // console.log(req.user);
+        res.setHeader("Authorization", req.cookies.bearerToken);
+        return res.json({success: true, message: "User is logged in", user: req.user});
     } catch (error) {
-        console.log(`${err}`)
-        return res.json({success: false, message: "User is not logged in", error: `${err}`})
+        console.log(`${err}`);
+        return res.json({success: false, message: "User is not logged in", error: `${err}`});
     }
 })
 
 router.patch("/user-logout", userAuth, async (req, res) => {
     try {
-        res.cookie("bearerToken", null)
-        res.setHeader("Authorization", "")
-        return res.json({success: true, message: "User logged out successfully."})
+        res.cookie("bearerToken", null);
+        res.setHeader("Authorization", "");
+        return res.json({success: true, message: "User logged out successfully."});
     } catch (err) {
-        return res.json({success: false, message: "failed to logout user."})
+        return res.json({success: false, message: "failed to logout user."});
     }
 })
 
