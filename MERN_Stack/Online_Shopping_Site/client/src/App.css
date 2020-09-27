@@ -141,3 +141,146 @@ a {
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 0.5rem;
 }
+
+/* User Header */
+
+.user-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.product-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  margin: 1rem;
+}
+
+.product-card {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  min-width: auto;
+  max-width: 400px;
+  min-height: 400px;
+}
+
+.product-card-body {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  justify-self: end;
+  align-content: flex-end;
+}
+
+/* Product Page */
+
+.product-page {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 0.5rem;
+}
+
+.product-price {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+  width: 50%;
+  justify-self: center;
+  text-align: left;
+}
+
+.mrp {
+  color: darkgrey;
+  text-decoration: line-through;
+}
+
+.product-page-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem;
+  grid-gap: 0.5rem;
+  justify-self: stretch;
+  justify-content: center;
+}
+
+.product-page-button {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 2rem;
+  justify-content: center;
+  justify-self: center;
+}
+
+/* Cart Item */
+
+.cart-item {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 0.5rem;
+  justify-self: stretch;
+}
+
+.order-summery {
+  display: grid;
+  grid-template-rows: auto;
+  justify-self: stretch;
+  justify-content: stretch;
+}
+
+.cart-item-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+/* User Orders */
+
+.user-order {
+  display: flex;
+  flex-direction: column;
+  justify-self: stretch;
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  background-clip: border-box;
+  border: 1px solid #00000020;
+  border-radius: 0.25rem;
+}
+
+.user-order-header {
+  display: flex;
+  flex-direction: row;
+  justify-self: stretch;
+  justify-content: space-between;
+  padding: 0.125rem 1rem;
+}
+
+.ordered-products-list {
+  display: grid;
+  grid-template-columns: 0.3fr 6fr 1.5fr;
+  justify-content: space-between;
+  justify-items: flex-start;
+  padding: 0rem 2rem;
+  border: 1px;
+}
+
+.order-price {
+  display: flex;
+  flex-direction: row;
+  justify-self: stretch;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+}
+
+/* User Profile */
+
+.user-profile {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 0.5rem;
+  grid-column-gap: 0.5rem;
+  padding: 0rem 2rem;
+  margin: 0rem 1rem;
+  justify-content: stretch;
+}

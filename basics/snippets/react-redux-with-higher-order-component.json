@@ -1,0 +1,10 @@
+{
+	"react-redux-with-higher-order-component": {
+		"scope": "javascript,typescript",
+		"prefix": "rwhoc",
+		"body": [
+			"import React, { Component } from 'react';\nimport { connect } from 'react-redux';\nimport PropTypes from 'prop-types';\n\nconst $1 = ($2) => {\n\tclass $1 extends Component {\n\n\n\n\t\trender () {\n\t\t\treturn (\n\t\t\t\t<div>\n\t\t\t\t\t<$2>\n\t\t\t\t\t\t</$2>\n\t\t\t\t</div>\n\t\t\t)\n\t\t}\n\t}\n\n\t$1.propTypes = {\n\t\t\n\t}\n\n\tconst mapStateToPorps = (state) => {\n\t\treturn {\n\t\t\t\n\t\t}\n\t}\n\n\tconst mapDispatchToProps = {\n\t\t\n\t}\n\n\treturn connect(mapStateToPorps, mapDispatchToProps)($1);\n}\nexport default $1;"
+		],
+		"description": "React-Redux with Heigher Order Component"
+	}
+}

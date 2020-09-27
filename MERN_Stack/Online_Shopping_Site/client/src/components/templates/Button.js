@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 
 class CustomButton extends Component {
@@ -24,12 +23,13 @@ class CustomButton extends Component {
         return (
             <Fragment>
                 <Link to={this.props.redirect}>
-                <Button 
+                <button 
+                className="btn btn-primary"
                 onClick={()=>{this.buttonClick()}}
                 variant="contained" 
-                color="primary">
+                color="secondary">
                 {this.state.buttonName}
-                </Button>
+                </button>
                 </Link>
             </Fragment>
         );

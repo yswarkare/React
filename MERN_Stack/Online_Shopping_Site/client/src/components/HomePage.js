@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 import PropTypes from 'prop-types';
 import { isUserLoggedIn } from "../redux/actions/user_actions";
+import ProdcutListHOC from "./product/ProductsList";
 
 class HomePage extends Component {
 
@@ -13,6 +14,7 @@ class HomePage extends Component {
         return (
             <div>
                 <p>Home Page</p>
+                <ProdcutListHOC></ProdcutListHOC>
             </div>
         );
     }

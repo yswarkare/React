@@ -167,6 +167,7 @@ const userReducer = (state = userState, action) => {
         console.log(action.payload)
         stateCopy.user.token = "";
         stateCopy.loginStatus.loggedIn = false;
+        sessionStorage.removeItem("online_Shopping_site_state");
         alert("You are successfully Logged Out.");
         stateCopy.loginStatus.logoutRedirect = "/";
         console.log(state);
